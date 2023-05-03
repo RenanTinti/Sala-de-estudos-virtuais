@@ -1,23 +1,43 @@
-<h2>ADS 5° Semestre - CRUD com Stack Tecnológico</h2>
+# Sala-de-estudos-virtuais
+Projeto de Laboratório de Desenvolvimento de Sistemas 5º Semestre do IFSP
 
-Para utilizar o programa, execute os seguintes comandos:
+Para o chat funcionar, é necessário instalar o VS Microsoft C++ Build Tools:
 
-// Instalação do framework Django<br>
-<b>$ pip install django</b>
+https://github.com/bycloudai/InstallVSBuildToolsWindows
 
-// Clonar para repositório local<br>
-<b>$ git clone https://github.com/RenanTinti/crud_stack_tech</b>
+~~~powershell
+  git clone https://github.com/eliascastrosousa/Sala-de-estudos-virtuais
+~~~
 
-// Acessar o diretório do projeto<br>
-<b>$ cd crud_stack_tech</b>
+~~~powershell
+  python -m venv env
+~~~
 
-// Executar as migrações do banco de dados<br>
-<b>$ python3 manage.py migrate</b>
+~~~powershell
+  .\env\scripts\activate
+~~~
 
-// Rodar o servidor<br>
-<b>$ python3 manage.py runserver</b>
+~~~powershell
+  pip install -r requirements.txt
+~~~
 
-Abra o navegador no endereço http://127.0.0.1:8000/<br>
+~~~powershell
+  python manage.py makemigrations
+~~~
 
-// Executar testes automatizados<br>
-<b>$ python3 manage.py test salas_virtuais</b>
+~~~powershell
+  python manage.py migrate
+~~~
+
+~~~powershell
+  python manage.py runserver
+~~~
+![image](https://user-images.githubusercontent.com/73971067/232124201-d93c99a9-f0bc-43f9-8eea-70d03978cce6.png)
+![image](https://user-images.githubusercontent.com/73971067/232124116-e6050146-1411-48d3-b482-044785038d2c.png)
+![image](https://user-images.githubusercontent.com/73971067/232124338-6a4102d5-f4a8-4c00-9aa2-66d3160f62cf.png)
+
+
+
+
+
+
